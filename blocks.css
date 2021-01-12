@@ -1,0 +1,27 @@
+#blocks_block{
+  background-color: #eb4034;
+  
+}
+#blocks_var{
+  background-color: #ffae00;
+  
+}
+#blocks_alert{
+  background-color: #000;
+ 
+}
+
+.blocksjs::before{
+content: "* ";
+
+}
+
+.blocksjs{
+ width:fit-content;
+  padding:5px;
+  font-family:arial;
+  color:white;
+  border-radius:5px;
+  -webkit-box-shadow: -10px 12px 12px -2px rgba(0,0,0,0.25); 
+box-shadow: -10px 12px 12px -2px rgba(0,0,0,0.25);
+}
