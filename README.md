@@ -7,6 +7,9 @@ no compilers needed for blocks.js! you can edit right from its source
 ## lightweight
 pretty small in file size so it wont take up all of your computer space
 
+### try it!
+https://sjrnoodles.github.io/blocks.js/playground/try.html
+
 # documentation
 
 ## add in blocks.js
