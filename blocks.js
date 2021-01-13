@@ -5,8 +5,8 @@ var codeview = "";
 var inny = "";
 var evalvar = "";
 var evalname = "";
-let codearray1 = [];
-let codearray2 = [];
+let codearray1 = [""];
+let codearray2 = [""];
 
 // sample variable
 var hello = "hello world";
