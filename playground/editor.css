@@ -1,0 +1,29 @@
+div#bjs_view {
+    margin-left: 50%;
+    background-color: #5b5b5b;
+    padding: 10px;
+}
+button {
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #4e4e4e;
+    color: white;
+}
+div#toolbox {
+    background-color: gray;
+    font-family: arial;
+    color: white;
+    padding: 10px;
+    width: 47%;
+    position: relative;
+    bottom: 322;
+    overflow-y: scroll;
+    height: 285;
+}
+body {
+    background-color: #272727;
+}
+hr {
+    border: none;
+}
