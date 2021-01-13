@@ -63,14 +63,14 @@ codeview = codeview + viewin;
   codearray1.push(code);
   codearray2.push(codeview);
 document.getElementById(blockstarget).innerHTML = codeview;
-  var adSound = new Audio("click.mp3");
+  var adSound = new Audio("./click.mp3");
     adSound.play();
 console.log(code);
 }
 
 function undocode(){
   if(!(code=="")){
-    var unSound = new Audio("undo.mp3");
+    var unSound = new Audio("./undo.mp3");
     unSound.play();
     codearray1.pop();
   codearray2.pop();
