@@ -5,6 +5,8 @@ var codeview = "";
 var inny = "";
 var evalvar = "";
 var evalname = "";
+let codearray1 = [];
+let codearray2 = [];
 
 // sample variable
 var hello = "hello world";
@@ -58,8 +60,18 @@ var viewin = "<div class='blocksjs' id='blocks_" + type + "'>" + input + "</div>
 code = code + input;
 
 codeview = codeview + viewin;
+  codearray1.push(code);
+  codearray2.push(codeview);
 document.getElementById(blockstarget).innerHTML = codeview;
 console.log(code);
+}
+
+function undocode(){
+  codearray1.pop();
+  codearray2.pop();
+  code = codearray1[codearray1.length - 1]
+  codeview = codearray2[codearray2.length - 1]
+  document.getElementById(blockstarget).innerHTML = codeview;
 }
 
 function run(){
