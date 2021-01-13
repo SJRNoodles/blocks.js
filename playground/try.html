@@ -7,24 +7,27 @@
   </head>
   <body>
     
-    <p id="bjsinny_log">
-    <button onclick="addcode('log(variable);','alert');">log</button>
-    </p>
+   
     <button onclick="run();">run</button>
     <hr>
     <div id="bjs_view"></div>
     <hr>
     </hr>
-    variable making
-    <br>
-    <textarea id="bjsinput_name"></textarea>
-    <textarea id="bjsinput_value"></textarea><button onclick="value_set();">set value</button>
-    <br>
-    innys and stuff
-    <br>
-    <textarea id="bjsinner"></textarea>
-    <button onclick='inner_set(evalname,"inny_log");'>set inner</button>
-    <br>
+  <div id="toolbox">
+    <script>
+    function show(id){
+    if (id=='variables'){
+      document.getElementById('showing').innerHTML = "<div id='variables'>variable making<br><textarea id='bjsinput_name'></textarea><textarea id='bjsinput_value'></textarea><button onclick='value_set();'>set value</button><br>innys and stuff<br><textarea id='bjsinner'></textarea><button onclick='inner_set(evalname," + '"inny_log"' + ");'>set inner</button><br></div>"
+    }
+    }
+    </script>
+    <button onclick="show('variables');">variables</button>
+     <p id="bjsinny_log">
+    <button onclick="addcode('log(variable);','alert');">log</button>
+    </p>
+      <div id="showing"></div>
+  
+    
 <script src="/blocks.js/blocks.js"></script>
   </body>
 </html>
