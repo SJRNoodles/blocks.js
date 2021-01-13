@@ -67,7 +67,7 @@ console.log(code);
 }
 
 function undocode(){
-  if(!(codearray1==[""])){
+  if(!(code=="")){
     codearray1.pop();
   codearray2.pop();
   code = codearray1[codearray1.length - 1]
