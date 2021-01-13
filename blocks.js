@@ -67,11 +67,14 @@ console.log(code);
 }
 
 function undocode(){
-  codearray1.pop();
+  if(!codearray1==[""]){
+    codearray1.pop();
   codearray2.pop();
   code = codearray1[codearray1.length - 1]
   codeview = codearray2[codearray2.length - 1]
   document.getElementById(blockstarget).innerHTML = codeview;
+  }
+  
 }
 
 function run(){
