@@ -2,6 +2,8 @@ div#bjs_view {
     margin-left: 50%;
     background-color: #5b5b5b;
     padding: 10px;
+    overflow-y: scroll;
+    height: 285;
 }
 button {
     border: none;
@@ -9,6 +11,11 @@ button {
     border-radius: 5px;
     background-color: #4e4e4e;
     color: white;
+}
+button#run {
+    background-color: #6969ff;
+    padding: 10px;
+    border-radius: 80px;
 }
 div#toolbox {
     background-color: gray;
