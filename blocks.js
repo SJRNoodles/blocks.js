@@ -31,8 +31,8 @@ function value_set(){
 }
 function value_set2(){
   var user_string_name = document.getElementById
-  ('bjsinput_name').value;
-  variable = document.getElementById('bjsinput_value').value;
+  ('bjsinput_name2').value;
+  variable = document.getElementById('bjsinput_value2').value;
   evalvar = user_string_name + " = " + variable + ";";
   console.log(evalvar);
   addcode(evalvar,'var');
