@@ -37,6 +37,7 @@ function inner_set(varia,div){
   console.log(div);
   
   document.getElementById("bjsinny_log").innerHTML = " <button onclick='addcode(" + '"log(' + evalname + ');","alert"' + ");'>log</button>";
+  document.getElementById("bjsif").innerHTML = " <button onclick='addcode(" + '"if(' + evalname + '){","if"' + ");'>if statement</button>";
   document.getElementById("bjsfunction").innerHTML = " <button onclick='addcode(" + '"function ' + evalname + '(){","block"' + ");'>add function</button>" + "<button onclick='addcode(" + '"' + evalname + "();" + '"' + "," + '"' + "block" + '"' + ");'>call function</button>";
  
   console.log(document.getElementById("bjsinny_log").innerHTML);
