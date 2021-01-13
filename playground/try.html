@@ -17,14 +17,18 @@
     <script>
     function show(id){
     if (id=='variables'){
-      document.getElementById('showing').innerHTML = "<div id='variables'>variable making<br><textarea id='bjsinput_name'></textarea><textarea id='bjsinput_value'></textarea><button onclick='value_set();'>set value</button><br>innys and stuff<br><textarea id='bjsinner'></textarea><button onclick='inner_set(evalname," + '"inny_log"' + ");'>set inner</button><br></div>"
+      document.getElementById('showing').innerHTML = "<div id='variables'>variable making<br><textarea id='bjsinput_name'></textarea><textarea id='bjsinput_value'></textarea><button onclick='value_set();'>set value</button><br>innys and function making<br><textarea id='bjsinner'></textarea><button onclick='inner_set(evalname," + '"inny_log"' + ");'>set inner</button><br></div>"
     }
     }
     </script>
-    <button onclick="show('variables');">variables</button>
+    <button onclick="show('variables');">variables and function logic</button>
      <p id="bjsinny_log">
     <button onclick="addcode('log(variable);','alert');">log</button>
     </p>
+    <p id="bjsfunction">
+    <button onclick="addcode('function variable(){','block');">log</button>
+    </p>
+    <button onclick="addcode('}','block');">end function</button>
       <div id="showing"></div>
   
     
