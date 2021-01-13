@@ -12,7 +12,7 @@ https://sjrnoodles.github.io/blocks.js/playground/try.html
 
 # documentation
 
-## add in blocks.js
+## getting started
 heres how to add in blocks.js to your website
 
 ### getting files
@@ -30,43 +30,7 @@ npm install https://github.com/SJRNoodles/blocks.js.git
 ```html
 <script src="blocks.js"></script>
 ```
-
-## building the editor (HTML)
-### block view
-
-```html
-<div id="bjs_view"></div>
-```
-
-this will show blocks
-### block controls
-```html
-<p id="bjsinny_log">
-    <button onclick="addcode('log(variable);','alert');">log</button>
-    </p>
-```
-this is code to add the block in! you can change the function or code via the first argument, and the style with the second argument.
-
-#### variable controls
-```html
-variable making
-    <br>
-    <textarea id="bjsinput_name"></textarea>
-    <textarea id="bjsinput_value"></textarea><button onclick="value_set();">set value</button>
-    <br>
-    innys and stuff
-    <br>
-    <textarea id="bjsinner"></textarea>
-    <button onclick='inner_set(evalname,"inny_log");'>set inner</button>
-    <br>
-```
-simple thingy for making variables and which variables can go in the blocks. you can fancy up this if you'd like
-
-#### run button 
-```html
-    <button onclick="run();">run</button>
-```
-this will run the code!
+you can use try.html in the playground folder as a template
 
 # adding new blocks
 edit blocks.js and go to here:
