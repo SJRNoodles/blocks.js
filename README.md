@@ -11,7 +11,14 @@ pretty small in file size so it wont take up all of your computer space
 
 ## add in blocks.js
 heres how to add in blocks.js to your website
-### add css to the page you want in
+
+### getting files
+download respitory via the download button or if you wanna use node js console:
+```bash
+npm install https://github.com/SJRNoodles/blocks.js.git
+```
+
+### add css to the html page you want in
 
 ```html
 <link href="blocks.css" rel="stylesheet" type="text/css" />
