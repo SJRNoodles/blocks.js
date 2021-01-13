@@ -1,0 +1,30 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="/blocks.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    
+    <p id="bjsinny_log">
+    <button onclick="addcode('log(variable);','alert');">log</button>
+    </p>
+    <button onclick="run();">run</button>
+    <hr>
+    <div id="bjs_view"></div>
+    <hr>
+    </hr>
+    variable making
+    <br>
+    <textarea id="bjsinput_name"></textarea>
+    <textarea id="bjsinput_value"></textarea><button onclick="value_set();">set value</button>
+    <br>
+    innys and stuff
+    <br>
+    <textarea id="bjsinner"></textarea>
+    <button onclick='inner_set(evalname,"inny_log");'>set inner</button>
+    <br>
+<script src="/blocks.js"></script>
+  </body>
+</html>
