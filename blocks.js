@@ -29,6 +29,15 @@ function value_set(){
   addcode(evalvar,'var');
   
 }
+function value_set2(){
+  var user_string_name = document.getElementById
+  ('bjsinput_name').value;
+  variable = document.getElementById('bjsinput_value').value;
+  evalvar = user_string_name + " = " + variable + ";";
+  console.log(evalvar);
+  addcode(evalvar,'var');
+  
+}
 
 function inner_set(varia,div){
   evalname = document.getElementById("bjsinner").value;
