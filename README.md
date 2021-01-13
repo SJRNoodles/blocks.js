@@ -30,7 +30,7 @@ npm install https://github.com/SJRNoodles/blocks.js.git
 ```html
 <script src="blocks.js"></script>
 ```
-you can use try.html in the playground folder as a template
+you can use the playground folder as a template
 
 # adding new blocks
 edit blocks.js and go to here:
