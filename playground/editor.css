@@ -5,6 +5,9 @@ div#bjs_view {
     overflow-y: scroll;
     height: 285;
 }
+button#run:hover {
+    background-color: #a7a7ff;
+}
 button {
     border: none;
     padding: 5px;
